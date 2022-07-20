@@ -1,0 +1,6 @@
+2022-07-17T10:44:05+00:00 CRITICAL syntax error, unexpected '<' in C:\OpenServer\domains\localhost\easyjob\wp-content\themes\nokri\template-parts\candidate\index.php on line 297
+
+2022-07-17T10:44:51+00:00 CRITICAL syntax error, unexpected '/' in C:\OpenServer\domains\localhost\easyjob\wp-content\themes\nokri\template-parts\candidate\index.php on line 298
+
+2022-07-17T11:56:14+00:00 CRITICAL syntax error, unexpected '}', expecting end of file in C:\OpenServer\domains\localhost\easyjob\wp-content\themes\nokri-child\functions.php on line 105
+

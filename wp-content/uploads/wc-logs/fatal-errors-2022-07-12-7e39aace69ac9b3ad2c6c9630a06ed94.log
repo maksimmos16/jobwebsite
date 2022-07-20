@@ -1,0 +1,6 @@
+2022-07-12T09:03:28+00:00 CRITICAL syntax error, unexpected '57565.' (T_DNUMBER), expecting ';' in C:\OpenServer\domains\localhost\easyjob\wp-content\themes\nokri\inc\theme-shortcodes\shortcodes\singup.php on line 455
+
+2022-07-12T16:12:35+00:00 CRITICAL syntax error, unexpected 'row' (T_STRING), expecting ';' or ',' in C:\OpenServer\domains\localhost\easyjob\wp-content\themes\nokri\template-parts\candidate\index.php on line 304
+
+2022-07-12T16:15:09+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO), expecting ';' or ',' in C:\OpenServer\domains\localhost\easyjob\wp-content\themes\nokri\template-parts\candidate\index.php on line 305
+

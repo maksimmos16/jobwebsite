@@ -1,0 +1,36 @@
+2022-07-19T09:36:24+00:00 CRITICAL syntax error, unexpected 'endif' (T_ENDIF) in C:\OpenServer\domains\localhost\easyjob\wp-content\themes\nokri\template-parts\headers\header-2.php on line 193
+
+2022-07-19T09:36:40+00:00 CRITICAL syntax error, unexpected 'endif' (T_ENDIF) in C:\OpenServer\domains\localhost\easyjob\wp-content\themes\nokri\template-parts\headers\header-2.php on line 193
+
+2022-07-19T09:37:10+00:00 CRITICAL syntax error, unexpected 'endif' (T_ENDIF) in C:\OpenServer\domains\localhost\easyjob\wp-content\themes\nokri\template-parts\headers\header-2.php on line 193
+
+2022-07-19T09:37:45+00:00 CRITICAL syntax error, unexpected 'endif' (T_ENDIF) in C:\OpenServer\domains\localhost\easyjob\wp-content\themes\nokri\template-parts\headers\header-2.php on line 193
+
+2022-07-19T09:37:52+00:00 CRITICAL syntax error, unexpected 'endif' (T_ENDIF) in C:\OpenServer\domains\localhost\easyjob\wp-content\themes\nokri\template-parts\headers\header-2.php on line 193
+
+2022-07-19T11:11:34+00:00 CRITICAL Uncaught Error: Call to undefined method stdClass::COUNT() in C:\OpenServer\domains\localhost\easyjob\wp-content\themes\nokri\template-parts\headers\header-2.php:190
+Stack trace:
+#0 C:\OpenServer\domains\localhost\easyjob\wp-includes\template.php(772): require()
+#1 C:\OpenServer\domains\localhost\easyjob\wp-includes\template.php(716): load_template()
+#2 C:\OpenServer\domains\localhost\easyjob\wp-includes\general-template.php(204): locate_template()
+#3 C:\OpenServer\domains\localhost\easyjob\wp-content\themes\nokri\header.php(94): get_template_part()
+#4 C:\OpenServer\domains\localhost\easyjob\wp-includes\template.php(770): require_once('C:\\OpenServer\\d...')
+#5 C:\OpenServer\domains\localhost\easyjob\wp-includes\template.php(716): load_template()
+#6 C:\OpenServer\domains\localhost\easyjob\wp-includes\general-template.php(48): locate_template()
+#7 C:\OpenServer\domains\localhost\easyjob\wp-content\themes\nokri\page-home.php(2): get_header()
+#8 C:\OpenServer\domains\localhost\easyjob\wp-includes\template-loader in C:\OpenServer\domains\localhost\easyjob\wp-content\themes\nokri\template-parts\headers\header-2.php on line 190
+
+2022-07-19T11:12:17+00:00 CRITICAL Uncaught Error: Object of class stdClass could not be converted to string in C:\OpenServer\domains\localhost\easyjob\wp-content\themes\nokri\template-parts\headers\header-2.php:193
+Stack trace:
+#0 C:\OpenServer\domains\localhost\easyjob\wp-includes\template.php(772): require()
+#1 C:\OpenServer\domains\localhost\easyjob\wp-includes\template.php(716): load_template()
+#2 C:\OpenServer\domains\localhost\easyjob\wp-includes\general-template.php(204): locate_template()
+#3 C:\OpenServer\domains\localhost\easyjob\wp-content\themes\nokri\header.php(94): get_template_part()
+#4 C:\OpenServer\domains\localhost\easyjob\wp-includes\template.php(770): require_once('C:\\OpenServer\\d...')
+#5 C:\OpenServer\domains\localhost\easyjob\wp-includes\template.php(716): load_template()
+#6 C:\OpenServer\domains\localhost\easyjob\wp-includes\general-template.php(48): locate_template()
+#7 C:\OpenServer\domains\localhost\easyjob\wp-content\themes\nokri\page-home.php(2): get_header()
+#8 C:\OpenServer\domains\localhost\easyjob\wp-includes\ in C:\OpenServer\domains\localhost\easyjob\wp-content\themes\nokri\template-parts\headers\header-2.php on line 193
+
+2022-07-19T11:16:18+00:00 CRITICAL syntax error, unexpected '(', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in C:\OpenServer\domains\localhost\easyjob\wp-content\themes\nokri\template-parts\headers\header-2.php on line 190
+

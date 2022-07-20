@@ -1,0 +1,9 @@
+wp-content/plugins/
+.htaccess
+wp-config.php
+wp-settings.php
+changes.txt
+backup_2022_07_19_20_50_14-6453-all/
+test.html
+easyjob-cicd.php
+readme.php

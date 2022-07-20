@@ -1,0 +1,14 @@
+2022-07-18T06:29:56+00:00 CRITICAL Maximum execution time of 60 seconds exceeded in C:\OpenServer\domains\localhost\easyjob\wp-includes\Requests\Transport\cURL.php on line 165
+
+2022-07-18T06:31:38+00:00 CRITICAL Maximum execution time of 60 seconds exceeded in C:\OpenServer\domains\localhost\easyjob\wp-includes\Requests\Transport\cURL.php on line 165
+
+2022-07-18T06:37:09+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO), expecting ';' or ',' in C:\OpenServer\domains\localhost\easyjob\wp-content\themes\nokri\template-parts\candidate\index.php on line 299
+
+2022-07-18T12:00:15+00:00 CRITICAL syntax error, unexpected '<', expecting end of file in C:\OpenServer\domains\localhost\easyjob\wp-content\themes\nokri\template-parts\headers\header-2.php on line 171
+
+2022-07-18T13:15:00+00:00 CRITICAL syntax error, unexpected '>' in C:\OpenServer\domains\localhost\easyjob\wp-content\themes\nokri\template-parts\headers\header-2.php on line 166
+
+2022-07-18T15:37:45+00:00 CRITICAL syntax error, unexpected 'endif' (T_ENDIF) in C:\OpenServer\domains\localhost\easyjob\wp-content\themes\nokri\template-parts\headers\header-2.php on line 193
+
+2022-07-18T15:46:35+00:00 CRITICAL syntax error, unexpected 'endif' (T_ENDIF) in C:\OpenServer\domains\localhost\easyjob\wp-content\themes\nokri\template-parts\headers\header-2.php on line 193
+

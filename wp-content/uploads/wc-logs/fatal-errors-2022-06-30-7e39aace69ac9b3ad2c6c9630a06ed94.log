@@ -1,0 +1,18 @@
+2022-06-30T06:47:03+00:00 CRITICAL syntax error, unexpected '.777' (T_DNUMBER), expecting ';' in C:\OpenServer\domains\localhost\easyjob\wp-content\themes\nokri\inc\theme-shortcodes\shortcodes\search_paralex_2_new.php on line 309
+
+2022-06-30T06:47:19+00:00 CRITICAL syntax error, unexpected '.777' (T_DNUMBER), expecting ';' in C:\OpenServer\domains\localhost\easyjob\wp-content\themes\nokri\inc\theme-shortcodes\shortcodes\search_paralex_2_new.php on line 309
+
+2022-06-30T06:47:24+00:00 CRITICAL syntax error, unexpected '.777' (T_DNUMBER), expecting ';' in C:\OpenServer\domains\localhost\easyjob\wp-content\themes\nokri\inc\theme-shortcodes\shortcodes\search_paralex_2_new.php on line 309
+
+2022-06-30T06:59:58+00:00 CRITICAL syntax error, unexpected ''); ?>[user_count]</strong> ot' (T_CONSTANT_ENCAPSED_STRING), expecting ';' in C:\OpenServer\domains\localhost\easyjob\wp-content\themes\nokri\inc\theme-shortcodes\shortcodes\search_paralex_2_new.php on line 311
+
+2022-06-30T09:18:18+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO) in C:\OpenServer\domains\localhost\easyjob\wp-content\themes\nokri\inc\theme-shortcodes\shortcodes\search_paralex_2_new.php on line 314
+
+2022-06-30T09:18:20+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO) in C:\OpenServer\domains\localhost\easyjob\wp-content\themes\nokri\inc\theme-shortcodes\shortcodes\search_paralex_2_new.php on line 314
+
+2022-06-30T09:19:15+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO) in C:\OpenServer\domains\localhost\easyjob\wp-content\themes\nokri\inc\theme-shortcodes\shortcodes\search_paralex_2_new.php on line 314
+
+2022-06-30T09:19:22+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO) in C:\OpenServer\domains\localhost\easyjob\wp-content\themes\nokri\inc\theme-shortcodes\shortcodes\search_paralex_2_new.php on line 314
+
+2022-06-30T09:26:22+00:00 CRITICAL syntax error, unexpected ''); ?>' (T_CONSTANT_ENCAPSED_STRING), expecting ';' in C:\OpenServer\domains\localhost\easyjob\wp-content\themes\nokri\inc\theme-shortcodes\shortcodes\search_paralex_2_new.php on line 312
+

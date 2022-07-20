@@ -1,0 +1,855 @@
+********************************************************************************
+* DUPLICATOR-LITE: Install-Log
+* STEP-1 START @ 09:27:00
+* VERSION: 1.4.6
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 7.4.29                                |7.4.29
+OS__________________: WINNT                                 |WINNT
+CREATED_____________: 2022-07-19 21:18:53
+WP VERSION__________: 6.0.1
+DUP VERSION_________: 1.4.6
+DB__________________: 5.7.38
+DB TABLES___________: 63
+DB ROWS_____________: 27,691
+DB FILE SIZE________: 14.41MB
+********************************************************************************
+SERVER INFO
+PHP_________________: 7.4.29 | SAPI: apache2handler
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: Apache
+DOC ROOT____________: "C:/OpenServer/domains/localhost/jobco"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "http://localhost/jobco/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ACTION______: "donothing"
+ARCHIVE ENGINE______: "ziparchive"
+SET DIR PERMS_______: 0
+DIR PERMS VALUE_____: 644
+SET FILE PERMS______: 0
+FILE PERMS VALUE____: 755
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "C:/OpenServer/domains/localhost/jobco/20220719_easyjob_[HASH]_20220719211853_archive.zip"
+SIZE________________: 314.61MB
+
+PRE-EXTRACT-CHECKS
+- PASS: Apache '.htaccess' not found - no backup needed.
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+BEFORE EXTRACION ACTIONS
+MAINTENANCE MODE ENABLE
+
+
+START ZIP FILE EXTRACTION STANDARD >>> 
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "C:/OpenServer/domains/localhost/jobco/20220719_easyjob_[HASH]_20220719211853_archive.zip"
+SIZE________________: 314.61MBFile timestamp set to Current: 2022-07-19 21:27:52
+<<< ZipArchive Unzip Complete: true
+--------------------------------------
+POST-EXTRACT-CHECKS
+--------------------------------------
+
+PERMISSION UPDATES: None Applied
+
+STEP-1 COMPLETE @ 09:27:52 - RUNTIME: 51.5702 sec.
+[PHP ERR][WARN] MSG:mysqli_connect(): (HY000/1045): Access denied for user 'admin'@'localhost' (using password: YES) [CODE:2|FILE:C:\OpenServer\domains\localhost\jobco\dup-installer\classes\class.db.php|LINE:48]
+DATABASE CONNECTION ERROR: Access denied for user 'admin'@'localhost' (using password: YES)[ERRNO:1045]
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 09:42:23
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+FUNCTION CREATION___: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 5.7.38 -- Build Server: 5.7.38
+FILE SIZE:	dup-database__[HASH].sql (5.44MB)
+TIMEOUT:	5000
+MAXPACK:	4194304
+SQLMODE:	ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[C:/OpenServer/domains/localhost/jobco/dup-installer/dup-installer-data__[HASH].sql]
+COLLATE FB:	Off
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+DB FUNCTIONS:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	553
+
+ej_actionscheduler_actions: (237)
+ej_actionscheduler_claims: (1)
+ej_actionscheduler_groups: (6)
+ej_actionscheduler_logs: (705)
+ej_commentmeta: (12)
+ej_comments: (303)
+ej_duplicator_packages: (0)
+ej_gla_budget_recommendations: (4230)
+ej_gla_merchant_issues: (0)
+ej_gla_shipping_rates: (0)
+ej_gla_shipping_times: (0)
+ej_glsr_assigned_posts: (0)
+ej_glsr_assigned_terms: (0)
+ej_glsr_assigned_users: (0)
+ej_glsr_ratings: (6)
+ej_links: (0)
+ej_notification_logs: (0)
+ej_options: (469)
+ej_post_views: (117)
+ej_postmeta: (15198)
+ej_posts: (1110)
+ej_term_relationships: (1396)
+ej_term_taxonomy: (725)
+ej_termmeta: (162)
+ej_terms: (725)
+ej_trp_gettext_en_gb: (154)
+ej_user_messages: (10)
+ej_usermeta: (737)
+ej_users: (17)
+ej_wc_admin_note_actions: (80)
+ej_wc_admin_notes: (70)
+ej_wc_category_lookup: (2)
+ej_wc_customer_lookup: (13)
+ej_wc_download_log: (0)
+ej_wc_order_coupon_lookup: (0)
+ej_wc_order_product_lookup: (20)
+ej_wc_order_stats: (244)
+ej_wc_order_tax_lookup: (0)
+ej_wc_product_attributes_lookup: (0)
+ej_wc_product_download_directories: (0)
+ej_wc_product_meta_lookup: (6)
+ej_wc_rate_limits: (0)
+ej_wc_reserved_stock: (0)
+ej_wc_tax_rate_classes: (2)
+ej_wc_webhooks: (0)
+ej_wcpdf_invoice_number: (3)
+ej_woocommerce_api_keys: (0)
+ej_woocommerce_attribute_taxonomies: (0)
+ej_woocommerce_downloadable_product_permissions: (0)
+ej_woocommerce_log: (0)
+ej_woocommerce_order_itemmeta: (180)
+ej_woocommerce_order_items: (20)
+ej_woocommerce_payment_tokenmeta: (0)
+ej_woocommerce_payment_tokens: (0)
+ej_woocommerce_sessions: (5)
+ej_woocommerce_shipping_zone_locations: (0)
+ej_woocommerce_shipping_zone_methods: (0)
+ej_woocommerce_shipping_zones: (0)
+ej_woocommerce_tax_rate_locations: (0)
+ej_woocommerce_tax_rates: (0)
+ej_wpfm_backup: (0)
+ej_wpmailsmtp_debug_events: (2)
+ej_wpmailsmtp_tasks_meta: (80)
+Removed '59' cache/transient rows
+
+INSERT DATA RUNTIME: 4.3357 sec.
+STEP-2 COMPLETE @ 09:42:30 - RUNTIME: 6.3952 sec.
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 09:43:58
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "Easy Job"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "C:/OpenServer/domains/localhost/easyjob"
+path_new______________: "C:/OpenServer/domains/localhost/jobco"
+siteurl_______________: "http://localhost/jobco"
+url_old_______________: "http://localhost/easyjob"
+url_new_______________: "http://localhost/jobco"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: false
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "ej_actionscheduler_actions"______________________[ROWS:   237][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/OpenServer/domains/localhost/easyjob" =========> "C:/OpenServer/domains/localhost/jobco"
+	SEARCH  2:"C:\/OpenServer\/domains\/localhost\/easyjob" =====> "C:\/OpenServer\/domains\/localhost\/jobco"
+	SEARCH  3:"C%3A%2FOpenServer%2Fdomains%2Flocalhost%2Feasyjob" => "C%3A%2FOpenServer%2Fdomains%2Flocalhost%2Fjobco"
+	SEARCH  4:"C:\OpenServer\domains\localhost\easyjob" =========> "C:/OpenServer/domains/localhost/jobco"
+	SEARCH  5:"C:\\OpenServer\\domains\\localhost\\easyjob" =====> "C:\/OpenServer\/domains\/localhost\/jobco"
+	SEARCH  6:"C%3A%5COpenServer%5Cdomains%5Clocalhost%5Ceasyjob" => "C%3A%2FOpenServer%2Fdomains%2Flocalhost%2Fjobco"
+	SEARCH  7:"//localhost/easyjob" =============================> "//localhost/jobco"
+	SEARCH  8:"\/\/localhost\/easyjob" ==========================> "\/\/localhost\/jobco"
+	SEARCH  9:"%2F%2Flocalhost%2Feasyjob" =======================> "%2F%2Flocalhost%2Fjobco"
+	SEARCH 10:"https://localhost/jobco" =========================> "http://localhost/jobco"
+	SEARCH 11:"https:\/\/localhost\/jobco" ======================> "http:\/\/localhost\/jobco"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fjobco" =================> "http%3A%2F%2Flocalhost%2Fjobco"
+
+EVALUATE TABLE: "ej_actionscheduler_claims"_______________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/OpenServer/domains/localhost/easyjob" =========> "C:/OpenServer/domains/localhost/jobco"
+	SEARCH  2:"C:\/OpenServer\/domains\/localhost\/easyjob" =====> "C:\/OpenServer\/domains\/localhost\/jobco"
+	SEARCH  3:"C%3A%2FOpenServer%2Fdomains%2Flocalhost%2Feasyjob" => "C%3A%2FOpenServer%2Fdomains%2Flocalhost%2Fjobco"
+	SEARCH  4:"C:\OpenServer\domains\localhost\easyjob" =========> "C:/OpenServer/domains/localhost/jobco"
+	SEARCH  5:"C:\\OpenServer\\domains\\localhost\\easyjob" =====> "C:\/OpenServer\/domains\/localhost\/jobco"
+	SEARCH  6:"C%3A%5COpenServer%5Cdomains%5Clocalhost%5Ceasyjob" => "C%3A%2FOpenServer%2Fdomains%2Flocalhost%2Fjobco"
+	SEARCH  7:"//localhost/easyjob" =============================> "//localhost/jobco"
+	SEARCH  8:"\/\/localhost\/easyjob" ==========================> "\/\/localhost\/jobco"
+	SEARCH  9:"%2F%2Flocalhost%2Feasyjob" =======================> "%2F%2Flocalhost%2Fjobco"
+	SEARCH 10:"https://localhost/jobco" =========================> "http://localhost/jobco"
+	SEARCH 11:"https:\/\/localhost\/jobco" ======================> "http:\/\/localhost\/jobco"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fjobco" =================> "http%3A%2F%2Flocalhost%2Fjobco"
+
+EVALUATE TABLE: "ej_actionscheduler_groups"_______________________[ROWS:     6][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/OpenServer/domains/localhost/easyjob" =========> "C:/OpenServer/domains/localhost/jobco"
+	SEARCH  2:"C:\/OpenServer\/domains\/localhost\/easyjob" =====> "C:\/OpenServer\/domains\/localhost\/jobco"
+	SEARCH  3:"C%3A%2FOpenServer%2Fdomains%2Flocalhost%2Feasyjob" => "C%3A%2FOpenServer%2Fdomains%2Flocalhost%2Fjobco"
+	SEARCH  4:"C:\OpenServer\domains\localhost\easyjob" =========> "C:/OpenServer/domains/localhost/jobco"
+	SEARCH  5:"C:\\OpenServer\\domains\\localhost\\easyjob" =====> "C:\/OpenServer\/domains\/localhost\/jobco"
+	SEARCH  6:"C%3A%5COpenServer%5Cdomains%5Clocalhost%5Ceasyjob" => "C%3A%2FOpenServer%2Fdomains%2Flocalhost%2Fjobco"
+	SEARCH  7:"//localhost/easyjob" =============================> "//localhost/jobco"
+	SEARCH  8:"\/\/localhost\/easyjob" ==========================> "\/\/localhost\/jobco"
+	SEARCH  9:"%2F%2Flocalhost%2Feasyjob" =======================> "%2F%2Flocalhost%2Fjobco"
+	SEARCH 10:"https://localhost/jobco" =========================> "http://localhost/jobco"
+	SEARCH 11:"https:\/\/localhost\/jobco" ======================> "http:\/\/localhost\/jobco"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fjobco" =================> "http%3A%2F%2Flocalhost%2Fjobco"
+
+EVALUATE TABLE: "ej_actionscheduler_logs"_________________________[ROWS:   705][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/OpenServer/domains/localhost/easyjob" =========> "C:/OpenServer/domains/localhost/jobco"
+	SEARCH  2:"C:\/OpenServer\/domains\/localhost\/easyjob" =====> "C:\/OpenServer\/domains\/localhost\/jobco"
+	SEARCH  3:"C%3A%2FOpenServer%2Fdomains%2Flocalhost%2Feasyjob" => "C%3A%2FOpenServer%2Fdomains%2Flocalhost%2Fjobco"
+	SEARCH  4:"C:\OpenServer\domains\localhost\easyjob" =========> "C:/OpenServer/domains/localhost/jobco"
+	SEARCH  5:"C:\\OpenServer\\domains\\localhost\\easyjob" =====> "C:\/OpenServer\/domains\/localhost\/jobco"
+	SEARCH  6:"C%3A%5COpenServer%5Cdomains%5Clocalhost%5Ceasyjob" => "C%3A%2FOpenServer%2Fdomains%2Flocalhost%2Fjobco"
+	SEARCH  7:"//localhost/easyjob" =============================> "//localhost/jobco"
+	SEARCH  8:"\/\/localhost\/easyjob" ==========================> "\/\/localhost\/jobco"
+	SEARCH  9:"%2F%2Flocalhost%2Feasyjob" =======================> "%2F%2Flocalhost%2Fjobco"
+	SEARCH 10:"https://localhost/jobco" =========================> "http://localhost/jobco"
+	SEARCH 11:"https:\/\/localhost\/jobco" ======================> "http:\/\/localhost\/jobco"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fjobco" =================> "http%3A%2F%2Flocalhost%2Fjobco"
+
+EVALUATE TABLE: "ej_commentmeta"__________________________________[ROWS:    12][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/OpenServer/domains/localhost/easyjob" =========> "C:/OpenServer/domains/localhost/jobco"
+	SEARCH  2:"C:\/OpenServer\/domains\/localhost\/easyjob" =====> "C:\/OpenServer\/domains\/localhost\/jobco"
+	SEARCH  3:"C%3A%2FOpenServer%2Fdomains%2Flocalhost%2Feasyjob" => "C%3A%2FOpenServer%2Fdomains%2Flocalhost%2Fjobco"
+	SEARCH  4:"C:\OpenServer\domains\localhost\easyjob" =========> "C:/OpenServer/domains/localhost/jobco"
+	SEARCH  5:"C:\\OpenServer\\domains\\localhost\\easyjob" =====> "C:\/OpenServer\/domains\/localhost\/jobco"
+	SEARCH  6:"C%3A%5COpenServer%5Cdomains%5Clocalhost%5Ceasyjob" => "C%3A%2FOpenServer%2Fdomains%2Flocalhost%2Fjobco"
+	SEARCH  7:"//localhost/easyjob" =============================> "//localhost/jobco"
+	SEARCH  8:"\/\/localhost\/easyjob" ==========================> "\/\/localhost\/jobco"
+	SEARCH  9:"%2F%2Flocalhost%2Feasyjob" =======================> "%2F%2Flocalhost%2Fjobco"
+	SEARCH 10:"https://localhost/jobco" =========================> "http://localhost/jobco"
+	SEARCH 11:"https:\/\/localhost\/jobco" ======================> "http:\/\/localhost\/jobco"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fjobco" =================> "http%3A%2F%2Flocalhost%2Fjobco"
+
+EVALUATE TABLE: "ej_comments"_____________________________________[ROWS:   303][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/OpenServer/domains/localhost/easyjob" =========> "C:/OpenServer/domains/localhost/jobco"
+	SEARCH  2:"C:\/OpenServer\/domains\/localhost\/easyjob" =====> "C:\/OpenServer\/domains\/localhost\/jobco"
+	SEARCH  3:"C%3A%2FOpenServer%2Fdomains%2Flocalhost%2Feasyjob" => "C%3A%2FOpenServer%2Fdomains%2Flocalhost%2Fjobco"
+	SEARCH  4:"C:\OpenServer\domains\localhost\easyjob" =========> "C:/OpenServer/domains/localhost/jobco"
+	SEARCH  5:"C:\\OpenServer\\domains\\localhost\\easyjob" =====> "C:\/OpenServer\/domains\/localhost\/jobco"
+	SEARCH  6:"C%3A%5COpenServer%5Cdomains%5Clocalhost%5Ceasyjob" => "C%3A%2FOpenServer%2Fdomains%2Flocalhost%2Fjobco"
+	SEARCH  7:"//localhost/easyjob" =============================> "//localhost/jobco"
+	SEARCH  8:"\/\/localhost\/easyjob" ==========================> "\/\/localhost\/jobco"
+	SEARCH  9:"%2F%2Flocalhost%2Feasyjob" =======================> "%2F%2Flocalhost%2Fjobco"
+	SEARCH 10:"https://localhost/jobco" =========================> "http://localhost/jobco"
+	SEARCH 11:"https:\/\/localhost\/jobco" ======================> "http:\/\/localhost\/jobco"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fjobco" =================> "http%3A%2F%2Flocalhost%2Fjobco"
+
+EVALUATE TABLE: "ej_duplicator_packages"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ej_gla_budget_recommendations"___________________[ROWS:  4230][PG:   2][SCAN:text columns]
+	SEARCH  1:"C:/OpenServer/domains/localhost/easyjob" =========> "C:/OpenServer/domains/localhost/jobco"
+	SEARCH  2:"C:\/OpenServer\/domains\/localhost\/easyjob" =====> "C:\/OpenServer\/domains\/localhost\/jobco"
+	SEARCH  3:"C%3A%2FOpenServer%2Fdomains%2Flocalhost%2Feasyjob" => "C%3A%2FOpenServer%2Fdomains%2Flocalhost%2Fjobco"
+	SEARCH  4:"C:\OpenServer\domains\localhost\easyjob" =========> "C:/OpenServer/domains/localhost/jobco"
+	SEARCH  5:"C:\\OpenServer\\domains\\localhost\\easyjob" =====> "C:\/OpenServer\/domains\/localhost\/jobco"
+	SEARCH  6:"C%3A%5COpenServer%5Cdomains%5Clocalhost%5Ceasyjob" => "C%3A%2FOpenServer%2Fdomains%2Flocalhost%2Fjobco"
+	SEARCH  7:"//localhost/easyjob" =============================> "//localhost/jobco"
+	SEARCH  8:"\/\/localhost\/easyjob" ==========================> "\/\/localhost\/jobco"
+	SEARCH  9:"%2F%2Flocalhost%2Feasyjob" =======================> "%2F%2Flocalhost%2Fjobco"
+	SEARCH 10:"https://localhost/jobco" =========================> "http://localhost/jobco"
+	SEARCH 11:"https:\/\/localhost\/jobco" ======================> "http:\/\/localhost\/jobco"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fjobco" =================> "http%3A%2F%2Flocalhost%2Fjobco"
+
+EVALUATE TABLE: "ej_gla_merchant_issues"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ej_gla_shipping_rates"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ej_gla_shipping_times"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ej_glsr_assigned_posts"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ej_glsr_assigned_terms"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ej_glsr_assigned_users"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ej_glsr_ratings"_________________________________[ROWS:     6][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/OpenServer/domains/localhost/easyjob" =========> "C:/OpenServer/domains/localhost/jobco"
+	SEARCH  2:"C:\/OpenServer\/domains\/localhost\/easyjob" =====> "C:\/OpenServer\/domains\/localhost\/jobco"
+	SEARCH  3:"C%3A%2FOpenServer%2Fdomains%2Flocalhost%2Feasyjob" => "C%3A%2FOpenServer%2Fdomains%2Flocalhost%2Fjobco"
+	SEARCH  4:"C:\OpenServer\domains\localhost\easyjob" =========> "C:/OpenServer/domains/localhost/jobco"
+	SEARCH  5:"C:\\OpenServer\\domains\\localhost\\easyjob" =====> "C:\/OpenServer\/domains\/localhost\/jobco"
+	SEARCH  6:"C%3A%5COpenServer%5Cdomains%5Clocalhost%5Ceasyjob" => "C%3A%2FOpenServer%2Fdomains%2Flocalhost%2Fjobco"
+	SEARCH  7:"//localhost/easyjob" =============================> "//localhost/jobco"
+	SEARCH  8:"\/\/localhost\/easyjob" ==========================> "\/\/localhost\/jobco"
+	SEARCH  9:"%2F%2Flocalhost%2Feasyjob" =======================> "%2F%2Flocalhost%2Fjobco"
+	SEARCH 10:"https://localhost/jobco" =========================> "http://localhost/jobco"
+	SEARCH 11:"https:\/\/localhost\/jobco" ======================> "http:\/\/localhost\/jobco"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fjobco" =================> "http%3A%2F%2Flocalhost%2Fjobco"
+
+EVALUATE TABLE: "ej_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ej_notification_logs"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ej_options"______________________________________[ROWS:   469][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/OpenServer/domains/localhost/easyjob" =========> "C:/OpenServer/domains/localhost/jobco"
+	SEARCH  2:"C:\/OpenServer\/domains\/localhost\/easyjob" =====> "C:\/OpenServer\/domains\/localhost\/jobco"
+	SEARCH  3:"C%3A%2FOpenServer%2Fdomains%2Flocalhost%2Feasyjob" => "C%3A%2FOpenServer%2Fdomains%2Flocalhost%2Fjobco"
+	SEARCH  4:"C:\OpenServer\domains\localhost\easyjob" =========> "C:/OpenServer/domains/localhost/jobco"
+	SEARCH  5:"C:\\OpenServer\\domains\\localhost\\easyjob" =====> "C:\/OpenServer\/domains\/localhost\/jobco"
+	SEARCH  6:"C%3A%5COpenServer%5Cdomains%5Clocalhost%5Ceasyjob" => "C%3A%2FOpenServer%2Fdomains%2Flocalhost%2Fjobco"
+	SEARCH  7:"//localhost/easyjob" =============================> "//localhost/jobco"
+	SEARCH  8:"\/\/localhost\/easyjob" ==========================> "\/\/localhost\/jobco"
+	SEARCH  9:"%2F%2Flocalhost%2Feasyjob" =======================> "%2F%2Flocalhost%2Fjobco"
+	SEARCH 10:"https://localhost/jobco" =========================> "http://localhost/jobco"
+	SEARCH 11:"https:\/\/localhost\/jobco" ======================> "http:\/\/localhost\/jobco"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fjobco" =================> "http%3A%2F%2Flocalhost%2Fjobco"
+
+EVALUATE TABLE: "ej_post_views"___________________________________[ROWS:   117][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/OpenServer/domains/localhost/easyjob" =========> "C:/OpenServer/domains/localhost/jobco"
+	SEARCH  2:"C:\/OpenServer\/domains\/localhost\/easyjob" =====> "C:\/OpenServer\/domains\/localhost\/jobco"
+	SEARCH  3:"C%3A%2FOpenServer%2Fdomains%2Flocalhost%2Feasyjob" => "C%3A%2FOpenServer%2Fdomains%2Flocalhost%2Fjobco"
+	SEARCH  4:"C:\OpenServer\domains\localhost\easyjob" =========> "C:/OpenServer/domains/localhost/jobco"
+	SEARCH  5:"C:\\OpenServer\\domains\\localhost\\easyjob" =====> "C:\/OpenServer\/domains\/localhost\/jobco"
+	SEARCH  6:"C%3A%5COpenServer%5Cdomains%5Clocalhost%5Ceasyjob" => "C%3A%2FOpenServer%2Fdomains%2Flocalhost%2Fjobco"
+	SEARCH  7:"//localhost/easyjob" =============================> "//localhost/jobco"
+	SEARCH  8:"\/\/localhost\/easyjob" ==========================> "\/\/localhost\/jobco"
+	SEARCH  9:"%2F%2Flocalhost%2Feasyjob" =======================> "%2F%2Flocalhost%2Fjobco"
+	SEARCH 10:"https://localhost/jobco" =========================> "http://localhost/jobco"
+	SEARCH 11:"https:\/\/localhost\/jobco" ======================> "http:\/\/localhost\/jobco"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fjobco" =================> "http%3A%2F%2Flocalhost%2Fjobco"
+
+EVALUATE TABLE: "ej_postmeta"_____________________________________[ROWS: 15198][PG:   5][SCAN:text columns]
+	SEARCH  1:"C:/OpenServer/domains/localhost/easyjob" =========> "C:/OpenServer/domains/localhost/jobco"
+	SEARCH  2:"C:\/OpenServer\/domains\/localhost\/easyjob" =====> "C:\/OpenServer\/domains\/localhost\/jobco"
+	SEARCH  3:"C%3A%2FOpenServer%2Fdomains%2Flocalhost%2Feasyjob" => "C%3A%2FOpenServer%2Fdomains%2Flocalhost%2Fjobco"
+	SEARCH  4:"C:\OpenServer\domains\localhost\easyjob" =========> "C:/OpenServer/domains/localhost/jobco"
+	SEARCH  5:"C:\\OpenServer\\domains\\localhost\\easyjob" =====> "C:\/OpenServer\/domains\/localhost\/jobco"
+	SEARCH  6:"C%3A%5COpenServer%5Cdomains%5Clocalhost%5Ceasyjob" => "C%3A%2FOpenServer%2Fdomains%2Flocalhost%2Fjobco"
+	SEARCH  7:"//localhost/easyjob" =============================> "//localhost/jobco"
+	SEARCH  8:"\/\/localhost\/easyjob" ==========================> "\/\/localhost\/jobco"
+	SEARCH  9:"%2F%2Flocalhost%2Feasyjob" =======================> "%2F%2Flocalhost%2Fjobco"
+	SEARCH 10:"https://localhost/jobco" =========================> "http://localhost/jobco"
+	SEARCH 11:"https:\/\/localhost\/jobco" ======================> "http:\/\/localhost\/jobco"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fjobco" =================> "http%3A%2F%2Flocalhost%2Fjobco"
+
+EVALUATE TABLE: "ej_posts"________________________________________[ROWS:  1110][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/OpenServer/domains/localhost/easyjob" =========> "C:/OpenServer/domains/localhost/jobco"
+	SEARCH  2:"C:\/OpenServer\/domains\/localhost\/easyjob" =====> "C:\/OpenServer\/domains\/localhost\/jobco"
+	SEARCH  3:"C%3A%2FOpenServer%2Fdomains%2Flocalhost%2Feasyjob" => "C%3A%2FOpenServer%2Fdomains%2Flocalhost%2Fjobco"
+	SEARCH  4:"C:\OpenServer\domains\localhost\easyjob" =========> "C:/OpenServer/domains/localhost/jobco"
+	SEARCH  5:"C:\\OpenServer\\domains\\localhost\\easyjob" =====> "C:\/OpenServer\/domains\/localhost\/jobco"
+	SEARCH  6:"C%3A%5COpenServer%5Cdomains%5Clocalhost%5Ceasyjob" => "C%3A%2FOpenServer%2Fdomains%2Flocalhost%2Fjobco"
+	SEARCH  7:"//localhost/easyjob" =============================> "//localhost/jobco"
+	SEARCH  8:"\/\/localhost\/easyjob" ==========================> "\/\/localhost\/jobco"
+	SEARCH  9:"%2F%2Flocalhost%2Feasyjob" =======================> "%2F%2Flocalhost%2Fjobco"
+	SEARCH 10:"https://localhost/jobco" =========================> "http://localhost/jobco"
+	SEARCH 11:"https:\/\/localhost\/jobco" ======================> "http:\/\/localhost\/jobco"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fjobco" =================> "http%3A%2F%2Flocalhost%2Fjobco"
+
+EVALUATE TABLE: "ej_term_relationships"___________________________[ROWS:  1396][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/OpenServer/domains/localhost/easyjob" =========> "C:/OpenServer/domains/localhost/jobco"
+	SEARCH  2:"C:\/OpenServer\/domains\/localhost\/easyjob" =====> "C:\/OpenServer\/domains\/localhost\/jobco"
+	SEARCH  3:"C%3A%2FOpenServer%2Fdomains%2Flocalhost%2Feasyjob" => "C%3A%2FOpenServer%2Fdomains%2Flocalhost%2Fjobco"
+	SEARCH  4:"C:\OpenServer\domains\localhost\easyjob" =========> "C:/OpenServer/domains/localhost/jobco"
+	SEARCH  5:"C:\\OpenServer\\domains\\localhost\\easyjob" =====> "C:\/OpenServer\/domains\/localhost\/jobco"
+	SEARCH  6:"C%3A%5COpenServer%5Cdomains%5Clocalhost%5Ceasyjob" => "C%3A%2FOpenServer%2Fdomains%2Flocalhost%2Fjobco"
+	SEARCH  7:"//localhost/easyjob" =============================> "//localhost/jobco"
+	SEARCH  8:"\/\/localhost\/easyjob" ==========================> "\/\/localhost\/jobco"
+	SEARCH  9:"%2F%2Flocalhost%2Feasyjob" =======================> "%2F%2Flocalhost%2Fjobco"
+	SEARCH 10:"https://localhost/jobco" =========================> "http://localhost/jobco"
+	SEARCH 11:"https:\/\/localhost\/jobco" ======================> "http:\/\/localhost\/jobco"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fjobco" =================> "http%3A%2F%2Flocalhost%2Fjobco"
+
+EVALUATE TABLE: "ej_term_taxonomy"________________________________[ROWS:   725][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/OpenServer/domains/localhost/easyjob" =========> "C:/OpenServer/domains/localhost/jobco"
+	SEARCH  2:"C:\/OpenServer\/domains\/localhost\/easyjob" =====> "C:\/OpenServer\/domains\/localhost\/jobco"
+	SEARCH  3:"C%3A%2FOpenServer%2Fdomains%2Flocalhost%2Feasyjob" => "C%3A%2FOpenServer%2Fdomains%2Flocalhost%2Fjobco"
+	SEARCH  4:"C:\OpenServer\domains\localhost\easyjob" =========> "C:/OpenServer/domains/localhost/jobco"
+	SEARCH  5:"C:\\OpenServer\\domains\\localhost\\easyjob" =====> "C:\/OpenServer\/domains\/localhost\/jobco"
+	SEARCH  6:"C%3A%5COpenServer%5Cdomains%5Clocalhost%5Ceasyjob" => "C%3A%2FOpenServer%2Fdomains%2Flocalhost%2Fjobco"
+	SEARCH  7:"//localhost/easyjob" =============================> "//localhost/jobco"
+	SEARCH  8:"\/\/localhost\/easyjob" ==========================> "\/\/localhost\/jobco"
+	SEARCH  9:"%2F%2Flocalhost%2Feasyjob" =======================> "%2F%2Flocalhost%2Fjobco"
+	SEARCH 10:"https://localhost/jobco" =========================> "http://localhost/jobco"
+	SEARCH 11:"https:\/\/localhost\/jobco" ======================> "http:\/\/localhost\/jobco"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fjobco" =================> "http%3A%2F%2Flocalhost%2Fjobco"
+
+EVALUATE TABLE: "ej_termmeta"_____________________________________[ROWS:   162][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/OpenServer/domains/localhost/easyjob" =========> "C:/OpenServer/domains/localhost/jobco"
+	SEARCH  2:"C:\/OpenServer\/domains\/localhost\/easyjob" =====> "C:\/OpenServer\/domains\/localhost\/jobco"
+	SEARCH  3:"C%3A%2FOpenServer%2Fdomains%2Flocalhost%2Feasyjob" => "C%3A%2FOpenServer%2Fdomains%2Flocalhost%2Fjobco"
+	SEARCH  4:"C:\OpenServer\domains\localhost\easyjob" =========> "C:/OpenServer/domains/localhost/jobco"
+	SEARCH  5:"C:\\OpenServer\\domains\\localhost\\easyjob" =====> "C:\/OpenServer\/domains\/localhost\/jobco"
+	SEARCH  6:"C%3A%5COpenServer%5Cdomains%5Clocalhost%5Ceasyjob" => "C%3A%2FOpenServer%2Fdomains%2Flocalhost%2Fjobco"
+	SEARCH  7:"//localhost/easyjob" =============================> "//localhost/jobco"
+	SEARCH  8:"\/\/localhost\/easyjob" ==========================> "\/\/localhost\/jobco"
+	SEARCH  9:"%2F%2Flocalhost%2Feasyjob" =======================> "%2F%2Flocalhost%2Fjobco"
+	SEARCH 10:"https://localhost/jobco" =========================> "http://localhost/jobco"
+	SEARCH 11:"https:\/\/localhost\/jobco" ======================> "http:\/\/localhost\/jobco"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fjobco" =================> "http%3A%2F%2Flocalhost%2Fjobco"
+
+EVALUATE TABLE: "ej_terms"________________________________________[ROWS:   725][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/OpenServer/domains/localhost/easyjob" =========> "C:/OpenServer/domains/localhost/jobco"
+	SEARCH  2:"C:\/OpenServer\/domains\/localhost\/easyjob" =====> "C:\/OpenServer\/domains\/localhost\/jobco"
+	SEARCH  3:"C%3A%2FOpenServer%2Fdomains%2Flocalhost%2Feasyjob" => "C%3A%2FOpenServer%2Fdomains%2Flocalhost%2Fjobco"
+	SEARCH  4:"C:\OpenServer\domains\localhost\easyjob" =========> "C:/OpenServer/domains/localhost/jobco"
+	SEARCH  5:"C:\\OpenServer\\domains\\localhost\\easyjob" =====> "C:\/OpenServer\/domains\/localhost\/jobco"
+	SEARCH  6:"C%3A%5COpenServer%5Cdomains%5Clocalhost%5Ceasyjob" => "C%3A%2FOpenServer%2Fdomains%2Flocalhost%2Fjobco"
+	SEARCH  7:"//localhost/easyjob" =============================> "//localhost/jobco"
+	SEARCH  8:"\/\/localhost\/easyjob" ==========================> "\/\/localhost\/jobco"
+	SEARCH  9:"%2F%2Flocalhost%2Feasyjob" =======================> "%2F%2Flocalhost%2Fjobco"
+	SEARCH 10:"https://localhost/jobco" =========================> "http://localhost/jobco"
+	SEARCH 11:"https:\/\/localhost\/jobco" ======================> "http:\/\/localhost\/jobco"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fjobco" =================> "http%3A%2F%2Flocalhost%2Fjobco"
+
+EVALUATE TABLE: "ej_trp_gettext_en_gb"____________________________[ROWS:   154][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/OpenServer/domains/localhost/easyjob" =========> "C:/OpenServer/domains/localhost/jobco"
+	SEARCH  2:"C:\/OpenServer\/domains\/localhost\/easyjob" =====> "C:\/OpenServer\/domains\/localhost\/jobco"
+	SEARCH  3:"C%3A%2FOpenServer%2Fdomains%2Flocalhost%2Feasyjob" => "C%3A%2FOpenServer%2Fdomains%2Flocalhost%2Fjobco"
+	SEARCH  4:"C:\OpenServer\domains\localhost\easyjob" =========> "C:/OpenServer/domains/localhost/jobco"
+	SEARCH  5:"C:\\OpenServer\\domains\\localhost\\easyjob" =====> "C:\/OpenServer\/domains\/localhost\/jobco"
+	SEARCH  6:"C%3A%5COpenServer%5Cdomains%5Clocalhost%5Ceasyjob" => "C%3A%2FOpenServer%2Fdomains%2Flocalhost%2Fjobco"
+	SEARCH  7:"//localhost/easyjob" =============================> "//localhost/jobco"
+	SEARCH  8:"\/\/localhost\/easyjob" ==========================> "\/\/localhost\/jobco"
+	SEARCH  9:"%2F%2Flocalhost%2Feasyjob" =======================> "%2F%2Flocalhost%2Fjobco"
+	SEARCH 10:"https://localhost/jobco" =========================> "http://localhost/jobco"
+	SEARCH 11:"https:\/\/localhost\/jobco" ======================> "http:\/\/localhost\/jobco"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fjobco" =================> "http%3A%2F%2Flocalhost%2Fjobco"
+
+EVALUATE TABLE: "ej_user_messages"________________________________[ROWS:    10][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/OpenServer/domains/localhost/easyjob" =========> "C:/OpenServer/domains/localhost/jobco"
+	SEARCH  2:"C:\/OpenServer\/domains\/localhost\/easyjob" =====> "C:\/OpenServer\/domains\/localhost\/jobco"
+	SEARCH  3:"C%3A%2FOpenServer%2Fdomains%2Flocalhost%2Feasyjob" => "C%3A%2FOpenServer%2Fdomains%2Flocalhost%2Fjobco"
+	SEARCH  4:"C:\OpenServer\domains\localhost\easyjob" =========> "C:/OpenServer/domains/localhost/jobco"
+	SEARCH  5:"C:\\OpenServer\\domains\\localhost\\easyjob" =====> "C:\/OpenServer\/domains\/localhost\/jobco"
+	SEARCH  6:"C%3A%5COpenServer%5Cdomains%5Clocalhost%5Ceasyjob" => "C%3A%2FOpenServer%2Fdomains%2Flocalhost%2Fjobco"
+	SEARCH  7:"//localhost/easyjob" =============================> "//localhost/jobco"
+	SEARCH  8:"\/\/localhost\/easyjob" ==========================> "\/\/localhost\/jobco"
+	SEARCH  9:"%2F%2Flocalhost%2Feasyjob" =======================> "%2F%2Flocalhost%2Fjobco"
+	SEARCH 10:"https://localhost/jobco" =========================> "http://localhost/jobco"
+	SEARCH 11:"https:\/\/localhost\/jobco" ======================> "http:\/\/localhost\/jobco"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fjobco" =================> "http%3A%2F%2Flocalhost%2Fjobco"
+
+EVALUATE TABLE: "ej_usermeta"_____________________________________[ROWS:   737][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/OpenServer/domains/localhost/easyjob" =========> "C:/OpenServer/domains/localhost/jobco"
+	SEARCH  2:"C:\/OpenServer\/domains\/localhost\/easyjob" =====> "C:\/OpenServer\/domains\/localhost\/jobco"
+	SEARCH  3:"C%3A%2FOpenServer%2Fdomains%2Flocalhost%2Feasyjob" => "C%3A%2FOpenServer%2Fdomains%2Flocalhost%2Fjobco"
+	SEARCH  4:"C:\OpenServer\domains\localhost\easyjob" =========> "C:/OpenServer/domains/localhost/jobco"
+	SEARCH  5:"C:\\OpenServer\\domains\\localhost\\easyjob" =====> "C:\/OpenServer\/domains\/localhost\/jobco"
+	SEARCH  6:"C%3A%5COpenServer%5Cdomains%5Clocalhost%5Ceasyjob" => "C%3A%2FOpenServer%2Fdomains%2Flocalhost%2Fjobco"
+	SEARCH  7:"//localhost/easyjob" =============================> "//localhost/jobco"
+	SEARCH  8:"\/\/localhost\/easyjob" ==========================> "\/\/localhost\/jobco"
+	SEARCH  9:"%2F%2Flocalhost%2Feasyjob" =======================> "%2F%2Flocalhost%2Fjobco"
+	SEARCH 10:"https://localhost/jobco" =========================> "http://localhost/jobco"
+	SEARCH 11:"https:\/\/localhost\/jobco" ======================> "http:\/\/localhost\/jobco"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fjobco" =================> "http%3A%2F%2Flocalhost%2Fjobco"
+
+EVALUATE TABLE: "ej_users"________________________________________[ROWS:    17][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/OpenServer/domains/localhost/easyjob" =========> "C:/OpenServer/domains/localhost/jobco"
+	SEARCH  2:"C:\/OpenServer\/domains\/localhost\/easyjob" =====> "C:\/OpenServer\/domains\/localhost\/jobco"
+	SEARCH  3:"C%3A%2FOpenServer%2Fdomains%2Flocalhost%2Feasyjob" => "C%3A%2FOpenServer%2Fdomains%2Flocalhost%2Fjobco"
+	SEARCH  4:"C:\OpenServer\domains\localhost\easyjob" =========> "C:/OpenServer/domains/localhost/jobco"
+	SEARCH  5:"C:\\OpenServer\\domains\\localhost\\easyjob" =====> "C:\/OpenServer\/domains\/localhost\/jobco"
+	SEARCH  6:"C%3A%5COpenServer%5Cdomains%5Clocalhost%5Ceasyjob" => "C%3A%2FOpenServer%2Fdomains%2Flocalhost%2Fjobco"
+	SEARCH  7:"//localhost/easyjob" =============================> "//localhost/jobco"
+	SEARCH  8:"\/\/localhost\/easyjob" ==========================> "\/\/localhost\/jobco"
+	SEARCH  9:"%2F%2Flocalhost%2Feasyjob" =======================> "%2F%2Flocalhost%2Fjobco"
+	SEARCH 10:"https://localhost/jobco" =========================> "http://localhost/jobco"
+	SEARCH 11:"https:\/\/localhost\/jobco" ======================> "http:\/\/localhost\/jobco"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fjobco" =================> "http%3A%2F%2Flocalhost%2Fjobco"
+
+EVALUATE TABLE: "ej_wc_admin_note_actions"________________________[ROWS:    80][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/OpenServer/domains/localhost/easyjob" =========> "C:/OpenServer/domains/localhost/jobco"
+	SEARCH  2:"C:\/OpenServer\/domains\/localhost\/easyjob" =====> "C:\/OpenServer\/domains\/localhost\/jobco"
+	SEARCH  3:"C%3A%2FOpenServer%2Fdomains%2Flocalhost%2Feasyjob" => "C%3A%2FOpenServer%2Fdomains%2Flocalhost%2Fjobco"
+	SEARCH  4:"C:\OpenServer\domains\localhost\easyjob" =========> "C:/OpenServer/domains/localhost/jobco"
+	SEARCH  5:"C:\\OpenServer\\domains\\localhost\\easyjob" =====> "C:\/OpenServer\/domains\/localhost\/jobco"
+	SEARCH  6:"C%3A%5COpenServer%5Cdomains%5Clocalhost%5Ceasyjob" => "C%3A%2FOpenServer%2Fdomains%2Flocalhost%2Fjobco"
+	SEARCH  7:"//localhost/easyjob" =============================> "//localhost/jobco"
+	SEARCH  8:"\/\/localhost\/easyjob" ==========================> "\/\/localhost\/jobco"
+	SEARCH  9:"%2F%2Flocalhost%2Feasyjob" =======================> "%2F%2Flocalhost%2Fjobco"
+	SEARCH 10:"https://localhost/jobco" =========================> "http://localhost/jobco"
+	SEARCH 11:"https:\/\/localhost\/jobco" ======================> "http:\/\/localhost\/jobco"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fjobco" =================> "http%3A%2F%2Flocalhost%2Fjobco"
+
+EVALUATE TABLE: "ej_wc_admin_notes"_______________________________[ROWS:    70][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/OpenServer/domains/localhost/easyjob" =========> "C:/OpenServer/domains/localhost/jobco"
+	SEARCH  2:"C:\/OpenServer\/domains\/localhost\/easyjob" =====> "C:\/OpenServer\/domains\/localhost\/jobco"
+	SEARCH  3:"C%3A%2FOpenServer%2Fdomains%2Flocalhost%2Feasyjob" => "C%3A%2FOpenServer%2Fdomains%2Flocalhost%2Fjobco"
+	SEARCH  4:"C:\OpenServer\domains\localhost\easyjob" =========> "C:/OpenServer/domains/localhost/jobco"
+	SEARCH  5:"C:\\OpenServer\\domains\\localhost\\easyjob" =====> "C:\/OpenServer\/domains\/localhost\/jobco"
+	SEARCH  6:"C%3A%5COpenServer%5Cdomains%5Clocalhost%5Ceasyjob" => "C%3A%2FOpenServer%2Fdomains%2Flocalhost%2Fjobco"
+	SEARCH  7:"//localhost/easyjob" =============================> "//localhost/jobco"
+	SEARCH  8:"\/\/localhost\/easyjob" ==========================> "\/\/localhost\/jobco"
+	SEARCH  9:"%2F%2Flocalhost%2Feasyjob" =======================> "%2F%2Flocalhost%2Fjobco"
+	SEARCH 10:"https://localhost/jobco" =========================> "http://localhost/jobco"
+	SEARCH 11:"https:\/\/localhost\/jobco" ======================> "http:\/\/localhost\/jobco"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fjobco" =================> "http%3A%2F%2Flocalhost%2Fjobco"
+
+EVALUATE TABLE: "ej_wc_category_lookup"___________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/OpenServer/domains/localhost/easyjob" =========> "C:/OpenServer/domains/localhost/jobco"
+	SEARCH  2:"C:\/OpenServer\/domains\/localhost\/easyjob" =====> "C:\/OpenServer\/domains\/localhost\/jobco"
+	SEARCH  3:"C%3A%2FOpenServer%2Fdomains%2Flocalhost%2Feasyjob" => "C%3A%2FOpenServer%2Fdomains%2Flocalhost%2Fjobco"
+	SEARCH  4:"C:\OpenServer\domains\localhost\easyjob" =========> "C:/OpenServer/domains/localhost/jobco"
+	SEARCH  5:"C:\\OpenServer\\domains\\localhost\\easyjob" =====> "C:\/OpenServer\/domains\/localhost\/jobco"
+	SEARCH  6:"C%3A%5COpenServer%5Cdomains%5Clocalhost%5Ceasyjob" => "C%3A%2FOpenServer%2Fdomains%2Flocalhost%2Fjobco"
+	SEARCH  7:"//localhost/easyjob" =============================> "//localhost/jobco"
+	SEARCH  8:"\/\/localhost\/easyjob" ==========================> "\/\/localhost\/jobco"
+	SEARCH  9:"%2F%2Flocalhost%2Feasyjob" =======================> "%2F%2Flocalhost%2Fjobco"
+	SEARCH 10:"https://localhost/jobco" =========================> "http://localhost/jobco"
+	SEARCH 11:"https:\/\/localhost\/jobco" ======================> "http:\/\/localhost\/jobco"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fjobco" =================> "http%3A%2F%2Flocalhost%2Fjobco"
+
+EVALUATE TABLE: "ej_wc_customer_lookup"___________________________[ROWS:    13][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/OpenServer/domains/localhost/easyjob" =========> "C:/OpenServer/domains/localhost/jobco"
+	SEARCH  2:"C:\/OpenServer\/domains\/localhost\/easyjob" =====> "C:\/OpenServer\/domains\/localhost\/jobco"
+	SEARCH  3:"C%3A%2FOpenServer%2Fdomains%2Flocalhost%2Feasyjob" => "C%3A%2FOpenServer%2Fdomains%2Flocalhost%2Fjobco"
+	SEARCH  4:"C:\OpenServer\domains\localhost\easyjob" =========> "C:/OpenServer/domains/localhost/jobco"
+	SEARCH  5:"C:\\OpenServer\\domains\\localhost\\easyjob" =====> "C:\/OpenServer\/domains\/localhost\/jobco"
+	SEARCH  6:"C%3A%5COpenServer%5Cdomains%5Clocalhost%5Ceasyjob" => "C%3A%2FOpenServer%2Fdomains%2Flocalhost%2Fjobco"
+	SEARCH  7:"//localhost/easyjob" =============================> "//localhost/jobco"
+	SEARCH  8:"\/\/localhost\/easyjob" ==========================> "\/\/localhost\/jobco"
+	SEARCH  9:"%2F%2Flocalhost%2Feasyjob" =======================> "%2F%2Flocalhost%2Fjobco"
+	SEARCH 10:"https://localhost/jobco" =========================> "http://localhost/jobco"
+	SEARCH 11:"https:\/\/localhost\/jobco" ======================> "http:\/\/localhost\/jobco"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fjobco" =================> "http%3A%2F%2Flocalhost%2Fjobco"
+
+EVALUATE TABLE: "ej_wc_download_log"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ej_wc_order_coupon_lookup"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ej_wc_order_product_lookup"______________________[ROWS:    20][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/OpenServer/domains/localhost/easyjob" =========> "C:/OpenServer/domains/localhost/jobco"
+	SEARCH  2:"C:\/OpenServer\/domains\/localhost\/easyjob" =====> "C:\/OpenServer\/domains\/localhost\/jobco"
+	SEARCH  3:"C%3A%2FOpenServer%2Fdomains%2Flocalhost%2Feasyjob" => "C%3A%2FOpenServer%2Fdomains%2Flocalhost%2Fjobco"
+	SEARCH  4:"C:\OpenServer\domains\localhost\easyjob" =========> "C:/OpenServer/domains/localhost/jobco"
+	SEARCH  5:"C:\\OpenServer\\domains\\localhost\\easyjob" =====> "C:\/OpenServer\/domains\/localhost\/jobco"
+	SEARCH  6:"C%3A%5COpenServer%5Cdomains%5Clocalhost%5Ceasyjob" => "C%3A%2FOpenServer%2Fdomains%2Flocalhost%2Fjobco"
+	SEARCH  7:"//localhost/easyjob" =============================> "//localhost/jobco"
+	SEARCH  8:"\/\/localhost\/easyjob" ==========================> "\/\/localhost\/jobco"
+	SEARCH  9:"%2F%2Flocalhost%2Feasyjob" =======================> "%2F%2Flocalhost%2Fjobco"
+	SEARCH 10:"https://localhost/jobco" =========================> "http://localhost/jobco"
+	SEARCH 11:"https:\/\/localhost\/jobco" ======================> "http:\/\/localhost\/jobco"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fjobco" =================> "http%3A%2F%2Flocalhost%2Fjobco"
+
+EVALUATE TABLE: "ej_wc_order_stats"_______________________________[ROWS:   244][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/OpenServer/domains/localhost/easyjob" =========> "C:/OpenServer/domains/localhost/jobco"
+	SEARCH  2:"C:\/OpenServer\/domains\/localhost\/easyjob" =====> "C:\/OpenServer\/domains\/localhost\/jobco"
+	SEARCH  3:"C%3A%2FOpenServer%2Fdomains%2Flocalhost%2Feasyjob" => "C%3A%2FOpenServer%2Fdomains%2Flocalhost%2Fjobco"
+	SEARCH  4:"C:\OpenServer\domains\localhost\easyjob" =========> "C:/OpenServer/domains/localhost/jobco"
+	SEARCH  5:"C:\\OpenServer\\domains\\localhost\\easyjob" =====> "C:\/OpenServer\/domains\/localhost\/jobco"
+	SEARCH  6:"C%3A%5COpenServer%5Cdomains%5Clocalhost%5Ceasyjob" => "C%3A%2FOpenServer%2Fdomains%2Flocalhost%2Fjobco"
+	SEARCH  7:"//localhost/easyjob" =============================> "//localhost/jobco"
+	SEARCH  8:"\/\/localhost\/easyjob" ==========================> "\/\/localhost\/jobco"
+	SEARCH  9:"%2F%2Flocalhost%2Feasyjob" =======================> "%2F%2Flocalhost%2Fjobco"
+	SEARCH 10:"https://localhost/jobco" =========================> "http://localhost/jobco"
+	SEARCH 11:"https:\/\/localhost\/jobco" ======================> "http:\/\/localhost\/jobco"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fjobco" =================> "http%3A%2F%2Flocalhost%2Fjobco"
+
+EVALUATE TABLE: "ej_wc_order_tax_lookup"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ej_wc_product_attributes_lookup"_________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ej_wc_product_download_directories"______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ej_wc_product_meta_lookup"_______________________[ROWS:     6][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/OpenServer/domains/localhost/easyjob" =========> "C:/OpenServer/domains/localhost/jobco"
+	SEARCH  2:"C:\/OpenServer\/domains\/localhost\/easyjob" =====> "C:\/OpenServer\/domains\/localhost\/jobco"
+	SEARCH  3:"C%3A%2FOpenServer%2Fdomains%2Flocalhost%2Feasyjob" => "C%3A%2FOpenServer%2Fdomains%2Flocalhost%2Fjobco"
+	SEARCH  4:"C:\OpenServer\domains\localhost\easyjob" =========> "C:/OpenServer/domains/localhost/jobco"
+	SEARCH  5:"C:\\OpenServer\\domains\\localhost\\easyjob" =====> "C:\/OpenServer\/domains\/localhost\/jobco"
+	SEARCH  6:"C%3A%5COpenServer%5Cdomains%5Clocalhost%5Ceasyjob" => "C%3A%2FOpenServer%2Fdomains%2Flocalhost%2Fjobco"
+	SEARCH  7:"//localhost/easyjob" =============================> "//localhost/jobco"
+	SEARCH  8:"\/\/localhost\/easyjob" ==========================> "\/\/localhost\/jobco"
+	SEARCH  9:"%2F%2Flocalhost%2Feasyjob" =======================> "%2F%2Flocalhost%2Fjobco"
+	SEARCH 10:"https://localhost/jobco" =========================> "http://localhost/jobco"
+	SEARCH 11:"https:\/\/localhost\/jobco" ======================> "http:\/\/localhost\/jobco"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fjobco" =================> "http%3A%2F%2Flocalhost%2Fjobco"
+
+EVALUATE TABLE: "ej_wc_rate_limits"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ej_wc_reserved_stock"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ej_wc_tax_rate_classes"__________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/OpenServer/domains/localhost/easyjob" =========> "C:/OpenServer/domains/localhost/jobco"
+	SEARCH  2:"C:\/OpenServer\/domains\/localhost\/easyjob" =====> "C:\/OpenServer\/domains\/localhost\/jobco"
+	SEARCH  3:"C%3A%2FOpenServer%2Fdomains%2Flocalhost%2Feasyjob" => "C%3A%2FOpenServer%2Fdomains%2Flocalhost%2Fjobco"
+	SEARCH  4:"C:\OpenServer\domains\localhost\easyjob" =========> "C:/OpenServer/domains/localhost/jobco"
+	SEARCH  5:"C:\\OpenServer\\domains\\localhost\\easyjob" =====> "C:\/OpenServer\/domains\/localhost\/jobco"
+	SEARCH  6:"C%3A%5COpenServer%5Cdomains%5Clocalhost%5Ceasyjob" => "C%3A%2FOpenServer%2Fdomains%2Flocalhost%2Fjobco"
+	SEARCH  7:"//localhost/easyjob" =============================> "//localhost/jobco"
+	SEARCH  8:"\/\/localhost\/easyjob" ==========================> "\/\/localhost\/jobco"
+	SEARCH  9:"%2F%2Flocalhost%2Feasyjob" =======================> "%2F%2Flocalhost%2Fjobco"
+	SEARCH 10:"https://localhost/jobco" =========================> "http://localhost/jobco"
+	SEARCH 11:"https:\/\/localhost\/jobco" ======================> "http:\/\/localhost\/jobco"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fjobco" =================> "http%3A%2F%2Flocalhost%2Fjobco"
+
+EVALUATE TABLE: "ej_wc_webhooks"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ej_wcpdf_invoice_number"_________________________[ROWS:     3][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/OpenServer/domains/localhost/easyjob" =========> "C:/OpenServer/domains/localhost/jobco"
+	SEARCH  2:"C:\/OpenServer\/domains\/localhost\/easyjob" =====> "C:\/OpenServer\/domains\/localhost\/jobco"
+	SEARCH  3:"C%3A%2FOpenServer%2Fdomains%2Flocalhost%2Feasyjob" => "C%3A%2FOpenServer%2Fdomains%2Flocalhost%2Fjobco"
+	SEARCH  4:"C:\OpenServer\domains\localhost\easyjob" =========> "C:/OpenServer/domains/localhost/jobco"
+	SEARCH  5:"C:\\OpenServer\\domains\\localhost\\easyjob" =====> "C:\/OpenServer\/domains\/localhost\/jobco"
+	SEARCH  6:"C%3A%5COpenServer%5Cdomains%5Clocalhost%5Ceasyjob" => "C%3A%2FOpenServer%2Fdomains%2Flocalhost%2Fjobco"
+	SEARCH  7:"//localhost/easyjob" =============================> "//localhost/jobco"
+	SEARCH  8:"\/\/localhost\/easyjob" ==========================> "\/\/localhost\/jobco"
+	SEARCH  9:"%2F%2Flocalhost%2Feasyjob" =======================> "%2F%2Flocalhost%2Fjobco"
+	SEARCH 10:"https://localhost/jobco" =========================> "http://localhost/jobco"
+	SEARCH 11:"https:\/\/localhost\/jobco" ======================> "http:\/\/localhost\/jobco"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fjobco" =================> "http%3A%2F%2Flocalhost%2Fjobco"
+
+EVALUATE TABLE: "ej_woocommerce_api_keys"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ej_woocommerce_attribute_taxonomies"_____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ej_woocommerce_downloadable_product_permissions"_[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ej_woocommerce_log"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ej_woocommerce_order_itemmeta"___________________[ROWS:   180][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/OpenServer/domains/localhost/easyjob" =========> "C:/OpenServer/domains/localhost/jobco"
+	SEARCH  2:"C:\/OpenServer\/domains\/localhost\/easyjob" =====> "C:\/OpenServer\/domains\/localhost\/jobco"
+	SEARCH  3:"C%3A%2FOpenServer%2Fdomains%2Flocalhost%2Feasyjob" => "C%3A%2FOpenServer%2Fdomains%2Flocalhost%2Fjobco"
+	SEARCH  4:"C:\OpenServer\domains\localhost\easyjob" =========> "C:/OpenServer/domains/localhost/jobco"
+	SEARCH  5:"C:\\OpenServer\\domains\\localhost\\easyjob" =====> "C:\/OpenServer\/domains\/localhost\/jobco"
+	SEARCH  6:"C%3A%5COpenServer%5Cdomains%5Clocalhost%5Ceasyjob" => "C%3A%2FOpenServer%2Fdomains%2Flocalhost%2Fjobco"
+	SEARCH  7:"//localhost/easyjob" =============================> "//localhost/jobco"
+	SEARCH  8:"\/\/localhost\/easyjob" ==========================> "\/\/localhost\/jobco"
+	SEARCH  9:"%2F%2Flocalhost%2Feasyjob" =======================> "%2F%2Flocalhost%2Fjobco"
+	SEARCH 10:"https://localhost/jobco" =========================> "http://localhost/jobco"
+	SEARCH 11:"https:\/\/localhost\/jobco" ======================> "http:\/\/localhost\/jobco"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fjobco" =================> "http%3A%2F%2Flocalhost%2Fjobco"
+
+EVALUATE TABLE: "ej_woocommerce_order_items"______________________[ROWS:    20][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/OpenServer/domains/localhost/easyjob" =========> "C:/OpenServer/domains/localhost/jobco"
+	SEARCH  2:"C:\/OpenServer\/domains\/localhost\/easyjob" =====> "C:\/OpenServer\/domains\/localhost\/jobco"
+	SEARCH  3:"C%3A%2FOpenServer%2Fdomains%2Flocalhost%2Feasyjob" => "C%3A%2FOpenServer%2Fdomains%2Flocalhost%2Fjobco"
+	SEARCH  4:"C:\OpenServer\domains\localhost\easyjob" =========> "C:/OpenServer/domains/localhost/jobco"
+	SEARCH  5:"C:\\OpenServer\\domains\\localhost\\easyjob" =====> "C:\/OpenServer\/domains\/localhost\/jobco"
+	SEARCH  6:"C%3A%5COpenServer%5Cdomains%5Clocalhost%5Ceasyjob" => "C%3A%2FOpenServer%2Fdomains%2Flocalhost%2Fjobco"
+	SEARCH  7:"//localhost/easyjob" =============================> "//localhost/jobco"
+	SEARCH  8:"\/\/localhost\/easyjob" ==========================> "\/\/localhost\/jobco"
+	SEARCH  9:"%2F%2Flocalhost%2Feasyjob" =======================> "%2F%2Flocalhost%2Fjobco"
+	SEARCH 10:"https://localhost/jobco" =========================> "http://localhost/jobco"
+	SEARCH 11:"https:\/\/localhost\/jobco" ======================> "http:\/\/localhost\/jobco"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fjobco" =================> "http%3A%2F%2Flocalhost%2Fjobco"
+
+EVALUATE TABLE: "ej_woocommerce_payment_tokenmeta"________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ej_woocommerce_payment_tokens"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ej_woocommerce_sessions"_________________________[ROWS:     5][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/OpenServer/domains/localhost/easyjob" =========> "C:/OpenServer/domains/localhost/jobco"
+	SEARCH  2:"C:\/OpenServer\/domains\/localhost\/easyjob" =====> "C:\/OpenServer\/domains\/localhost\/jobco"
+	SEARCH  3:"C%3A%2FOpenServer%2Fdomains%2Flocalhost%2Feasyjob" => "C%3A%2FOpenServer%2Fdomains%2Flocalhost%2Fjobco"
+	SEARCH  4:"C:\OpenServer\domains\localhost\easyjob" =========> "C:/OpenServer/domains/localhost/jobco"
+	SEARCH  5:"C:\\OpenServer\\domains\\localhost\\easyjob" =====> "C:\/OpenServer\/domains\/localhost\/jobco"
+	SEARCH  6:"C%3A%5COpenServer%5Cdomains%5Clocalhost%5Ceasyjob" => "C%3A%2FOpenServer%2Fdomains%2Flocalhost%2Fjobco"
+	SEARCH  7:"//localhost/easyjob" =============================> "//localhost/jobco"
+	SEARCH  8:"\/\/localhost\/easyjob" ==========================> "\/\/localhost\/jobco"
+	SEARCH  9:"%2F%2Flocalhost%2Feasyjob" =======================> "%2F%2Flocalhost%2Fjobco"
+	SEARCH 10:"https://localhost/jobco" =========================> "http://localhost/jobco"
+	SEARCH 11:"https:\/\/localhost\/jobco" ======================> "http:\/\/localhost\/jobco"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fjobco" =================> "http%3A%2F%2Flocalhost%2Fjobco"
+
+EVALUATE TABLE: "ej_woocommerce_shipping_zone_locations"__________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ej_woocommerce_shipping_zone_methods"____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ej_woocommerce_shipping_zones"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ej_woocommerce_tax_rate_locations"_______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ej_woocommerce_tax_rates"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ej_wpfm_backup"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ej_wpmailsmtp_debug_events"______________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/OpenServer/domains/localhost/easyjob" =========> "C:/OpenServer/domains/localhost/jobco"
+	SEARCH  2:"C:\/OpenServer\/domains\/localhost\/easyjob" =====> "C:\/OpenServer\/domains\/localhost\/jobco"
+	SEARCH  3:"C%3A%2FOpenServer%2Fdomains%2Flocalhost%2Feasyjob" => "C%3A%2FOpenServer%2Fdomains%2Flocalhost%2Fjobco"
+	SEARCH  4:"C:\OpenServer\domains\localhost\easyjob" =========> "C:/OpenServer/domains/localhost/jobco"
+	SEARCH  5:"C:\\OpenServer\\domains\\localhost\\easyjob" =====> "C:\/OpenServer\/domains\/localhost\/jobco"
+	SEARCH  6:"C%3A%5COpenServer%5Cdomains%5Clocalhost%5Ceasyjob" => "C%3A%2FOpenServer%2Fdomains%2Flocalhost%2Fjobco"
+	SEARCH  7:"//localhost/easyjob" =============================> "//localhost/jobco"
+	SEARCH  8:"\/\/localhost\/easyjob" ==========================> "\/\/localhost\/jobco"
+	SEARCH  9:"%2F%2Flocalhost%2Feasyjob" =======================> "%2F%2Flocalhost%2Fjobco"
+	SEARCH 10:"https://localhost/jobco" =========================> "http://localhost/jobco"
+	SEARCH 11:"https:\/\/localhost\/jobco" ======================> "http:\/\/localhost\/jobco"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fjobco" =================> "http%3A%2F%2Flocalhost%2Fjobco"
+
+EVALUATE TABLE: "ej_wpmailsmtp_tasks_meta"________________________[ROWS:    80][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/OpenServer/domains/localhost/easyjob" =========> "C:/OpenServer/domains/localhost/jobco"
+	SEARCH  2:"C:\/OpenServer\/domains\/localhost\/easyjob" =====> "C:\/OpenServer\/domains\/localhost\/jobco"
+	SEARCH  3:"C%3A%2FOpenServer%2Fdomains%2Flocalhost%2Feasyjob" => "C%3A%2FOpenServer%2Fdomains%2Flocalhost%2Fjobco"
+	SEARCH  4:"C:\OpenServer\domains\localhost\easyjob" =========> "C:/OpenServer/domains/localhost/jobco"
+	SEARCH  5:"C:\\OpenServer\\domains\\localhost\\easyjob" =====> "C:\/OpenServer\/domains\/localhost\/jobco"
+	SEARCH  6:"C%3A%5COpenServer%5Cdomains%5Clocalhost%5Ceasyjob" => "C%3A%2FOpenServer%2Fdomains%2Flocalhost%2Fjobco"
+	SEARCH  7:"//localhost/easyjob" =============================> "//localhost/jobco"
+	SEARCH  8:"\/\/localhost\/easyjob" ==========================> "\/\/localhost\/jobco"
+	SEARCH  9:"%2F%2Flocalhost%2Feasyjob" =======================> "%2F%2Flocalhost%2Fjobco"
+	SEARCH 10:"https://localhost/jobco" =========================> "http://localhost/jobco"
+	SEARCH 11:"https:\/\/localhost\/jobco" ======================> "http:\/\/localhost\/jobco"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fjobco" =================> "http%3A%2F%2Flocalhost%2Fjobco"
+--------------------------------------
+SCANNED:	Tables:63 	|	 Rows:27047 	|	 Cells:143735 
+UPDATED:	Tables:5 	|	 Rows:626 	|	 Cells:627 
+ERRORS:		0 
+RUNTIME:	0.828000 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE DB_NAME "** OBSCURED **"
+	UPDATE DB_USER "** OBSCURED **"
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache '.htaccess__[HASH]' was removed
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Auto Deactivated plugins list here: Array
+(
+    [0] => really-simple-ssl/rlrsssl-really-simple-ssl.php
+    [1] => simple-google-recaptcha/simple-google-recaptcha.php
+    [2] => js_composer/js_composer.php
+)
+
+deactivate js_composer/js_composer.php
+Plugin(s) listed here are deactivated: js_composer/js_composer.php
+Plugin(s) reactivated after installation: js_composer/js_composer.php
+MAINTENANCE MODE DISABLE
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 09:43:59 - RUNTIME: 4.9820 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] Info
+	SECTIONS: general
+	LONG MSG:             The following is a list of notices that may need to be fixed in order to finalize your setup. These values should only be investigated if you're running into
+            issues with your site. For more details see the <a href="https://codex.wordpress.org/Editing_wp-config.php" target="_blank">WordPress Codex</a>.
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+-----------------------
+[WARNING] Deactivated Plugin:  WPBakery Page Builder
+	SECTIONS: general
+	LONG MSG: This plugin is deactivated automatically, because it requires a reacivation to work properly.  <b>Please reactivate from the WordPress admin panel after logging in.</b> This will re-enable your site's frontend.
+
+====================================
